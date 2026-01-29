@@ -1,6 +1,7 @@
+#programa para calcular el área y perímetro de un círuclo
 #inicio XD
 r = input("digite el radio del círculo: ")
-π = 3.14159
+π = 3.14169
 a = 0
 p = 0
 
@@ -14,11 +15,9 @@ r = int(r)
 a = π * (r * r)
 p = 2 * π * r
 
-#lo que sale :P
-print("el área del círculo es: ")
-print(a)
-print("el perímetro del círculo es:")
-print(p)
+#output :P
+print("el área del círculo es: " + str(a))
+print("el perímetro del círculo es:" + str(p))
 
 print()
 print("(presione Enter para salir)")
