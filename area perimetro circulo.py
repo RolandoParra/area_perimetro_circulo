@@ -1,8 +1,9 @@
 # #programa para calcular el área y perímetro de un círculo
 
 #inicio XD
+import math
 r = input("digite el radio del círculo: ")
-π = 3.14169
+π = math.PI
 a = 0
 p = 0
 
